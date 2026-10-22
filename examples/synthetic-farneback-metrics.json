@@ -1,0 +1,29 @@
+{
+  "input": "data/synthetic_shaky.mp4",
+  "output": "results/stabilized.mp4",
+  "backend": "farneback",
+  "frames": 48,
+  "width": 640,
+  "height": 360,
+  "fps": 24.0,
+  "mean_reliable_fraction": 0.94886524822695,
+  "mean_ransac_inlier_ratio": 0.9437769058492858,
+  "feature_fallbacks": 0,
+  "crop_scale": 0.9602452993392945,
+  "zoom": 1.041400567842466,
+  "modeled_jitter_before": 19.65526220523661,
+  "modeled_jitter_after": 0.09761976063617114,
+  "modeled_jitter_reduction_percent": 99.5033403288298,
+  "independent_input": {
+    "translation_motion_rms": 11.245309363932833,
+    "translation_change_rms": 19.715090003066912,
+    "rotation_motion_rms": 4.139033442059026e-05,
+    "mean_tracking_inlier_ratio": 0.9774904763690324
+  },
+  "independent_output": {
+    "translation_motion_rms": 0.7198774519821263,
+    "translation_change_rms": 0.1561131547591908,
+    "rotation_motion_rms": 3.1465149831680704e-05,
+    "mean_tracking_inlier_ratio": 0.9803625522566446
+  }
+}
